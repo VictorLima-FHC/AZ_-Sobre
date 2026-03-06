@@ -1,0 +1,491 @@
+/* Fontes do projeto */
+:root {
+  --fonte-inter: "Inter", sans-serif;
+  --fonte-lexia: "lexia", serif;
+  --fonte-lexia-advertising: "lexia-advertising", serif;
+}
+
+/* Inter variável */
+.inter-variavel {
+  font-family: var(--fonte-inter);
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Lexia */
+.lexia-regular {
+  font-family: var(--fonte-lexia);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lexia-italic {
+  font-family: var(--fonte-lexia);
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lexia-bold {
+  font-family: var(--fonte-lexia);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lexia-bold-italic {
+  font-family: var(--fonte-lexia);
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Lexia Advertising */
+.lexia-advertising-regular {
+  font-family: var(--fonte-lexia-advertising);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lexia-advertising-italic {
+  font-family: var(--fonte-lexia-advertising);
+  font-weight: 400;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fonte-inter);
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 112px;
+}
+
+.secao-hero {
+  width: 100%;
+  min-height: 398px;
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.38) 0%, rgba(0, 0, 0, 0.14) 55%, rgba(0, 0, 0, 0.08) 100%),
+    url("../assets/BANNER DESK.jpg") center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.hero__conteudo {
+  width: 100%;
+}
+
+.hero__titulo {
+  color: #ffffff;
+  font-size: 51px;
+  line-height: 0.98;
+  font-weight: 400;
+  max-width: 560px;
+}
+
+.secao-presenca {
+  /* background-color: #e6e6e6; */
+  min-height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.secao-presenca__container {
+  min-height: 500px;
+  position: relative;
+}
+
+.secao-presenca__texto {
+  max-width: 510px;
+  padding-top: 74px;
+  position: relative;
+  z-index: 2;
+}
+
+.secao-presenca__titulo {
+  color: #7d275b;
+  font-size: 29px;
+  line-height: 1.25;
+  font-weight: 700;
+  margin-bottom: 36px;
+}
+
+.secao-presenca__descricao {
+  color: #3e3e3e;
+  font-size: 18px;
+  line-height: 1.3;
+  font-family: var(--fonte-inter);
+}
+
+.secao-presenca__descricao strong {
+  font-weight: 700;
+}
+
+.secao-presenca__mapa {
+  position: absolute;
+  top: -220px;
+  right: 170px;
+  width: 915px;
+  z-index: 1;
+}
+
+.secao-presenca__mapa img {
+  width: 120%;
+  height: auto;
+  display: block;
+}
+
+.secao-caracteristicas {
+  background-color: #ffffff;
+}
+
+.secao-caracteristicas__container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.caracteristica-card {
+  padding: 20px 0;
+  min-height: 132px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.caracteristica-card__conteudo {
+  padding: 0 24px 0 14px;
+}
+
+.caracteristica-card:not(:last-child) .caracteristica-card__conteudo {
+  border-right: 4px solid #d2d2d2;
+  padding-right: 28px;
+}
+
+.caracteristica-card:first-child .caracteristica-card__conteudo {
+  border-left: 4px solid #d2d2d2;
+  padding-left: 14px;
+}
+
+.caracteristica-card__numero {
+  color: #8e1f6a;
+  font-size: 45px;
+  line-height: 1.05;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: 0;
+}
+
+.caracteristica-card__texto {
+  color: #1b1b1b;
+  font-size: 14px;
+  line-height: 1.35;
+  font-family: var(--fonte-lexia);
+  font-weight: 700;
+  letter-spacing: 0;
+  max-width: 320px;
+}
+
+.secao-operacoes {
+  /* background-color: #efefef; */
+  padding: 104px 0;
+}
+
+.secao-operacoes__titulo {
+  color: #7d275b;
+  font-size: 29px;
+  line-height: 1.05;
+  margin-bottom: 32px;
+}
+
+.secao-operacoes__grade {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.operacao-card {
+  background-color: #f9f9f9;
+}
+
+.operacao-card img {
+  width: 100%;
+  height: 186px;
+  object-fit: cover;
+  display: block;
+}
+
+.operacao-card__conteudo {
+  padding: 30px 28px 34px;
+  text-align: center;
+}
+
+.operacao-card__categoria {
+  color: #8e1f6a;
+  font-family: var(--fonte-inter);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.operacao-card__destaque {
+  color: #8e1f6a;
+  font-size: 38px;
+  line-height: 0.95;
+  margin-bottom: 10px;
+}
+
+.operacao-card__descricao {
+  color: #1f1f1f;
+  font-family: var(--fonte-lexia);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.18;
+}
+
+.secao-escritorio {
+  width: 100%;
+  background-color: #e6ae3b;
+}
+
+.secao-escritorio__conteudo {
+  min-height: 374px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start;
+  gap: 42px;
+}
+
+.secao-escritorio__texto {
+  align-self: center;
+}
+
+.secao-escritorio__texto p {
+  color: #1f1f1e;
+  font-family: var(--fonte-inter);
+  font-size: 29px;
+  line-height: 1.18;
+  font-weight: 400;
+}
+
+.secao-escritorio__texto strong {
+  font-weight: 700;
+}
+
+.secao-escritorio__imagens {
+  display: grid;
+  grid-template-columns: 227px 346px 181px;
+  gap: 6px;
+  margin-top: 0;
+  margin-right: -112px;
+}
+
+.secao-escritorio__imagens img {
+  width: 100%;
+  height: 335px;
+  object-fit: cover;
+  display: block;
+}
+
+.secao-ciencia-vidas {
+  width: 100%;
+  padding: 104px 0;
+}
+
+.secao-ciencia-vidas__grade {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.ciencia-bloco {
+  min-height: 308px;
+}
+
+.ciencia-bloco__inner {
+  height: 100%;
+  padding: 50px 50px 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ciencia-bloco--texto-claro {
+  background-color: #f9f9f9;
+}
+
+.ciencia-bloco--texto-amarelo {
+  background-color: #e6ae3b;
+}
+
+.ciencia-bloco__titulo {
+  color: #7d275b;
+  font-size: 29px;
+  line-height: 1.22;
+  margin-bottom: 16px;
+}
+
+.ciencia-bloco__paragrafo {
+  font-family: var(--fonte-inter);
+  font-size: 18px;
+  line-height: 1.28;
+  color: #1f1f1e;
+  max-width: 540px;
+}
+
+.ciencia-bloco--imagem img {
+  width: 100%;
+  height: 100%;
+  min-height: 308px;
+  object-fit: cover;
+  display: block;
+}
+
+.ciencia-bloco--texto-amarelo .ciencia-bloco__titulo {
+  margin-bottom: 0;
+}
+
+.secao-valores {
+  background-color: #f9f9f9;
+  padding: 104px 0;
+}
+
+.secao-valores__titulo {
+  color: #7d275b;
+  font-size: 29px;
+  line-height: 1.15;
+  margin-bottom: 40px;
+}
+
+.valores-carrossel {
+  overflow: hidden;
+}
+
+.valores-carrossel__trilha {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.valores-carrossel__trilha::-webkit-scrollbar {
+  display: none;
+}
+
+.valor-card {
+  flex: 0 0 396px;
+}
+
+.valor-card img {
+  width: 100%;
+  height: 293px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 28px;
+}
+
+.valor-card__titulo {
+  color: #7d275b;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.valor-card__texto {
+  font-family: var(--fonte-inter);
+  font-size: 16px;
+  line-height: 1.3;
+  color: #555555;
+  padding-right: 80px;
+}
+
+.valores-carrossel__controles {
+  margin-top: 34px;
+  display: flex;
+  gap: 8px;
+}
+
+.valores-carrossel__seta {
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #d9d9d9;
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.valores-carrossel__seta:hover {
+  background-color: #c8c8c8;
+}
+
+.secao-cta-final {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+.secao-cta-final__conteudo {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 112px;
+}
+
+.secao-cta-final__card {
+  background-color: #e6ae3b;
+  display: grid;
+  grid-template-columns: 1fr 680px;
+  align-items: center;
+  gap: 60px;
+  padding: 64px 60px 76px 60px;
+}
+
+.secao-cta-final__titulo {
+  color: #1f1f1e;
+  font-size: 29px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.secao-cta-final__botao {
+  width: 324px;
+  min-height: 56px;
+  border: 2px solid #5f5b55;
+  border-radius: 6px;
+  color: #1f1f1e;
+  text-decoration: none;
+  font-family: var(--fonte-inter);
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.secao-cta-final__botao img {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.secao-cta-final__imagem img {
+  width: 100%;
+  height: 248px;
+  object-fit: cover;
+  display: block;
+}
