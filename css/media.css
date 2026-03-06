@@ -1,0 +1,610 @@
+@media (max-width: 1300px) {
+  .container,
+  .secao-cta-final__conteudo {
+    padding: 0 72px;
+  }
+
+  .secao-presenca__mapa {
+    right: 90px;
+    width: 860px;
+  }
+
+  .secao-escritorio__imagens {
+    margin-right: -72px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container,
+  .secao-cta-final__conteudo {
+    padding: 0 56px;
+  }
+
+  .hero__titulo {
+    font-size: 46px;
+  }
+
+  .secao-presenca {
+    min-height: 470px;
+  }
+
+  .secao-presenca__container {
+    min-height: 470px;
+  }
+
+  .secao-presenca__mapa {
+    top: -180px;
+    right: 42px;
+    width: 760px;
+  }
+
+  .secao-operacoes__grade {
+    gap: 16px;
+  }
+
+  .secao-escritorio__conteudo {
+    grid-template-columns: 1fr 640px;
+    gap: 28px;
+  }
+
+  .secao-escritorio__texto p {
+    font-size: 25px;
+  }
+
+  .secao-escritorio__imagens {
+    grid-template-columns: 205px 306px 159px;
+    margin-right: -56px;
+  }
+
+  .secao-escritorio__imagens img {
+    height: 296px;
+  }
+
+  .secao-cta-final__card {
+    grid-template-columns: 1fr 560px;
+    gap: 40px;
+    padding: 48px 44px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container,
+  .secao-cta-final__conteudo {
+    padding: 0 44px;
+  }
+
+  .secao-caracteristicas__container {
+    grid-template-columns: 1fr;
+  }
+
+  .caracteristica-card {
+    min-height: auto;
+    padding: 14px 0;
+  }
+
+  .caracteristica-card__conteudo,
+  .caracteristica-card:first-child .caracteristica-card__conteudo {
+    padding: 0 14px;
+    border-left: 0;
+  }
+
+  .caracteristica-card:not(:last-child) .caracteristica-card__conteudo {
+    border-right: 0;
+    border-bottom: 2px solid #d2d2d2;
+    padding-right: 14px;
+    padding-bottom: 14px;
+  }
+
+  .secao-operacoes__grade {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .secao-ciencia-vidas__grade {
+    grid-template-columns: 1fr;
+  }
+
+  .ciencia-bloco,
+  .ciencia-bloco--imagem img {
+    min-height: 280px;
+  }
+
+  .secao-cta-final__card {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .secao-cta-final__imagem img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container,
+  .secao-cta-final__conteudo {
+    padding: 0 36px;
+  }
+
+  .secao-hero {
+    min-height: 340px;
+  }
+
+  .hero__titulo {
+    font-size: 40px;
+    max-width: 450px;
+  }
+
+  .secao-presenca {
+    min-height: auto;
+  }
+
+  .secao-presenca__container {
+    min-height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .secao-presenca__texto {
+    max-width: 470px;
+    padding-top: 0;
+  }
+
+  .secao-presenca__titulo {
+    font-size: 25px;
+    margin-bottom: 24px;
+  }
+
+  .secao-presenca__descricao {
+    font-size: 16px;
+  }
+
+  .secao-presenca__mapa {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 28px;
+  }
+
+  .secao-presenca__mapa img {
+    width: 100%;
+    max-width: 680px;
+  }
+
+  .secao-operacoes,
+  .secao-ciencia-vidas,
+  .secao-valores {
+    padding: 72px 0;
+  }
+
+  .secao-escritorio__conteudo {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .secao-escritorio__texto {
+    align-self: start;
+  }
+
+  .secao-escritorio__imagens {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-right: 0;
+  }
+
+  .secao-escritorio__imagens img {
+    height: 260px;
+  }
+
+  .valores-carrossel__controles {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container,
+  .secao-cta-final__conteudo {
+    padding: 0 24px;
+  }
+
+  .secao-cta-final {
+    padding: 0;
+  }
+
+  .secao-cta-final__conteudo {
+    padding: 0;
+  }
+
+  .secao-hero {
+    height: 396px;
+    min-height: 396px;
+    max-height: 396px;
+    background:
+      linear-gradient(90deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.2) 58%, rgba(0, 0, 0, 0.1) 100%),
+      url("../assets/BANNER MOBILE.jpg") center top / cover no-repeat;
+  }
+
+  .hero__titulo {
+    font-size: 34px;
+    max-width: 380px;
+  }
+
+  .secao-presenca__container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 64px;
+  }
+
+  .secao-presenca__mapa {
+    order: 1;
+    position: relative;
+    width: 100%;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 26px;
+  }
+
+  .secao-presenca__mapa img {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  .secao-presenca__texto {
+    order: 2;
+    max-width: 100%;
+  }
+
+  .secao-caracteristicas {
+    background-color: #f9f9f9;
+    padding: 64px 0;
+  }
+
+  .secao-caracteristicas__container {
+    row-gap: 24px;
+  }
+
+  .caracteristica-card {
+    padding: 0;
+  }
+
+  .caracteristica-card__conteudo,
+  .caracteristica-card:first-child .caracteristica-card__conteudo,
+  .caracteristica-card:not(:last-child) .caracteristica-card__conteudo {
+    border: 0;
+    padding: 0;
+  }
+
+  .secao-operacoes__grade {
+    grid-template-columns: 1fr;
+  }
+
+  .secao-operacoes__titulo {
+    text-align: center;
+  }
+
+  .operacao-card {
+    background-color: #ffffff;
+  }
+
+  .operacao-card__conteudo {
+    padding: 24px 0 28px;
+    text-align: left;
+  }
+
+  .secao-ciencia-vidas {
+    padding: 64px 0;
+  }
+
+  .secao-ciencia-vidas__grade {
+    grid-template-columns: 1fr;
+  }
+
+  .ciencia-bloco {
+    min-height: auto;
+  }
+
+  .ciencia-bloco--intro {
+    background-color: transparent;
+  }
+
+  .ciencia-bloco--intro .ciencia-bloco__inner {
+    padding: 0 0 24px;
+  }
+
+  .ciencia-bloco--intro .ciencia-bloco__titulo {
+    margin-bottom: 0;
+  }
+
+  .ciencia-bloco--intro .ciencia-bloco__paragrafo {
+    display: none;
+  }
+
+  .ciencia-bloco--texto-mobile-1 {
+    display: block;
+    order: 3;
+  }
+
+  .ciencia-bloco--texto-mobile-1 .ciencia-bloco__inner,
+  .ciencia-bloco--texto-final .ciencia-bloco__inner,
+  .ciencia-bloco--chamada .ciencia-bloco__inner {
+    padding: 24px 20px 26px;
+  }
+
+  .ciencia-bloco--img-a {
+    order: 2;
+  }
+
+  .ciencia-bloco--img-b {
+    order: 4;
+  }
+
+  .ciencia-bloco--chamada {
+    order: 5;
+  }
+
+  .ciencia-bloco--img-c {
+    order: 6;
+  }
+
+  .ciencia-bloco--texto-final {
+    order: 7;
+  }
+
+  .ciencia-bloco--imagem img {
+    min-height: 0;
+    height: 240px;
+  }
+
+  .secao-escritorio__carrossel {
+    display: block;
+    width: calc(100% + 48px);
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+
+  .secao-escritorio__trilha {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .secao-escritorio__trilha::-webkit-scrollbar {
+    display: none;
+  }
+
+  .secao-escritorio__slide {
+    scroll-snap-align: start;
+  }
+
+  .secao-escritorio__slide img {
+    height: 400px;
+  }
+
+  .secao-escritorio__indicadores {
+    margin-top: -22px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .secao-escritorio__imagens {
+    display: none;
+  }
+
+  .secao-escritorio__texto {
+    width: 100%;
+    display: flex;
+    padding: 24px;
+  }
+
+  .secao-escritorio__texto p {
+    font-size: 22px;
+    line-height: 1.22;
+    text-align: left;
+  }
+
+  .valor-card {
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .valores-carrossel__trilha {
+    gap: 0;
+    padding: 0;
+  }
+
+  .valor-card img {
+    height: 228px;
+    margin-bottom: 20px;
+  }
+
+  .valor-card__titulo,
+  .valor-card__texto {
+    width: 100%;
+    text-align: left;
+  }
+
+  .valor-card__texto {
+    font-size: 15px;
+    padding-right: 0;
+  }
+
+  .valores-carrossel__controles {
+    justify-content: center;
+  }
+
+  .secao-cta-final__card {
+    padding: 64px 24px;
+  }
+
+  .secao-cta-final__botao {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container,
+  .secao-cta-final__conteudo {
+    padding: 0 18px;
+  }
+
+  .secao-cta-final__conteudo {
+    padding: 0;
+  }
+
+  .hero__titulo {
+    font-size: 30px;
+    max-width: 320px;
+  }
+
+  .secao-presenca__titulo,
+  .secao-operacoes__titulo,
+  .secao-ciencia-vidas .ciencia-bloco__titulo,
+  .secao-valores__titulo,
+  .secao-cta-final__titulo {
+    font-size: 24px;
+  }
+
+  .secao-presenca__descricao,
+  .ciencia-bloco__paragrafo {
+    font-size: 15px;
+  }
+
+  .secao-presenca__container {
+    padding-bottom: 64px;
+  }
+
+  .secao-caracteristicas__container {
+    row-gap: 36px;
+  }
+
+  .ciencia-bloco--texto-mobile-1 .ciencia-bloco__inner,
+  .ciencia-bloco--texto-final .ciencia-bloco__inner,
+  .ciencia-bloco--chamada .ciencia-bloco__inner {
+    padding: 20px 18px 24px;
+  }
+
+  .ciencia-bloco--imagem img {
+    height: 210px;
+  }
+
+  .secao-escritorio__carrossel {
+    width: calc(100% + 36px);
+    margin-left: -18px;
+    margin-right: -18px;
+  }
+
+  .secao-escritorio__slide img {
+    height: 345px;
+  }
+
+  .secao-escritorio__texto p {
+    font-size: 22px;
+  }
+
+  .operacao-card img {
+    height: 160px;
+  }
+
+  .operacao-card__destaque {
+    font-size: 32px;
+  }
+
+  .operacao-card__conteudo {
+    padding-left: 0;
+  }
+
+  .valor-card__titulo {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .valores-carrossel__seta {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+  }
+
+  .secao-cta-final__card {
+    padding: 64px 18px;
+  }
+
+  .secao-cta-final__imagem img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 393px) {
+  .container,
+  .secao-cta-final__conteudo {
+    padding: 0 14px;
+  }
+
+  .secao-cta-final__conteudo {
+    padding: 0;
+  }
+
+  .hero__titulo {
+    font-size: 28px;
+  }
+
+  .secao-presenca__titulo,
+  .secao-operacoes__titulo,
+  .secao-ciencia-vidas .ciencia-bloco__titulo,
+  .secao-valores__titulo,
+  .secao-cta-final__titulo {
+    font-size: 22px;
+  }
+
+  .secao-presenca__container {
+    padding-bottom: 64px;
+  }
+
+  .secao-caracteristicas__container {
+    row-gap: 36px;
+  }
+
+  .ciencia-bloco--imagem img {
+    height: 188px;
+  }
+
+  .secao-escritorio__carrossel {
+    width: calc(100% + 28px);
+    margin-left: -14px;
+    margin-right: -14px;
+  }
+
+  .secao-escritorio__slide img {
+    height: 300px;
+  }
+
+  .operacao-card__conteudo {
+    padding-left: 0;
+  }
+
+  .caracteristica-card__numero {
+    font-size: 38px;
+  }
+
+  .secao-escritorio__texto p {
+    font-size: 22px;
+  }
+
+  .valor-card img {
+    height: 200px;
+  }
+
+  .valor-card__texto {
+    padding-right: 10px;
+  }
+
+  .secao-cta-final__card {
+    padding: 64px 18px;
+  }
+}

@@ -279,6 +279,10 @@ body {
   font-weight: 700;
 }
 
+.secao-escritorio__carrossel {
+  display: none;
+}
+
 .secao-escritorio__imagens {
   display: grid;
   grid-template-columns: 227px 346px 181px;
@@ -292,6 +296,41 @@ body {
   height: 335px;
   object-fit: cover;
   display: block;
+}
+
+.secao-escritorio__trilha {
+  display: flex;
+}
+
+.secao-escritorio__slide {
+  flex: 0 0 100%;
+}
+
+.secao-escritorio__slide img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  display: block;
+}
+
+.secao-escritorio__indicadores {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.secao-escritorio__ponto {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.secao-escritorio__ponto.ativo {
+  background-color: #ffffff;
 }
 
 .secao-ciencia-vidas {
@@ -349,6 +388,10 @@ body {
 
 .ciencia-bloco--texto-amarelo .ciencia-bloco__titulo {
   margin-bottom: 0;
+}
+
+.ciencia-bloco--texto-mobile-1 {
+  display: none;
 }
 
 .secao-valores {
