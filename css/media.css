@@ -201,6 +201,56 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .container,
+  .secao-cta-final__conteudo {
+    padding: 0 32px;
+  }
+
+  .hero__titulo {
+    font-size: 38px;
+    max-width: 430px;
+  }
+
+  .secao-cta-final__card {
+    padding: 36px 32px;
+  }
+}
+
+@media (max-width: 950px) {
+  .container,
+  .secao-cta-final__conteudo {
+    padding: 0 30px;
+  }
+
+  .secao-operacoes__grade {
+    gap: 14px;
+  }
+
+  .secao-escritorio__texto p {
+    font-size: 23px;
+  }
+
+  .secao-cta-final__card {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container,
+  .secao-cta-final__conteudo {
+    padding: 0 28px;
+  }
+
+  .hero__titulo {
+    font-size: 36px;
+  }
+
+  .ciencia-bloco__inner {
+    padding: 40px 32px;
+  }
+}
+
 @media (max-width: 768px) {
   .container,
   .secao-cta-final__conteudo {
